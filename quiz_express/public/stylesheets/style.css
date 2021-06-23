@@ -1,8 +1,42 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+    color: blue;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+.menu_container {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+}
+
+.menu_container li {
+    margin-right: 0.5rem;
+}
+
+main {
+    margin: 1.25rem 0rem;
+}
+
+.div-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-container img {
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.div-container p {
+    text-align: center;
 }
